@@ -32,12 +32,12 @@
     </style>
   </head>
   <body>
-    <button>VR Pls</button>
     <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
     <script type='text/javascript'>
       var Module = {
         preRun: [],
         postRun: [],
+        arguments: ['-p', 'Web', '-g', 'OpenGL'],
         print: (function() {
             return function(text) {
                 text = Array.prototype.slice.call(arguments).join(' ');

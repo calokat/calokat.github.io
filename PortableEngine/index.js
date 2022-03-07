@@ -193,7 +193,7 @@ Module['FS_createPath']("/", "Secret_Meshes", true, true);
     }
   
    }
-   loadPackage({"files": [{"filename": "/Assets/Models/cone.obj", "start": 0, "end": 6073, "audio": 0}, {"filename": "/Assets/Models/cube.obj", "start": 6073, "end": 9871, "audio": 0}, {"filename": "/Assets/Models/cylinder.obj", "start": 9871, "end": 34849, "audio": 0}, {"filename": "/Assets/Models/duo.fbx", "start": 34849, "end": 92381, "audio": 0}, {"filename": "/Assets/Models/helix.obj", "start": 92381, "end": 606827, "audio": 0}, {"filename": "/Assets/Models/index_controller.blend", "start": 606827, "end": 2704395, "audio": 0}, {"filename": "/Assets/Models/index_controller.blend1", "start": 2704395, "end": 4822843, "audio": 0}, {"filename": "/Assets/Models/index_controller.stl", "start": 4822843, "end": 5857277, "audio": 0}, {"filename": "/Assets/Models/plane.fbx", "start": 5857277, "end": 5868729, "audio": 0}, {"filename": "/Assets/Models/sphere.obj", "start": 5868729, "end": 5993204, "audio": 0}, {"filename": "/Assets/Models/torus.obj", "start": 5993204, "end": 6098129, "audio": 0}, {"filename": "/Assets/Images/asset.png", "start": 6098129, "end": 6101735, "audio": 0}, {"filename": "/Assets/Images/cushion.png", "start": 6101735, "end": 6389837, "audio": 0}, {"filename": "/Assets/Images/directory.png", "start": 6389837, "end": 6393368, "audio": 0}, {"filename": "/Assets/Images/light_bulb.jpg", "start": 6393368, "end": 6437584, "audio": 0}, {"filename": "/Assets/Images/rock.png", "start": 6437584, "end": 8279301, "audio": 0}, {"filename": "/Assets/Images/tile1.tif", "start": 8279301, "end": 9852481, "audio": 0}, {"filename": "/Assets/Images/tile2.tif", "start": 9852481, "end": 11851113, "audio": 0}, {"filename": "/Assets/Images/Normal/cushion_normals.png", "start": 11851113, "end": 12247735, "audio": 0}, {"filename": "/Assets/Images/Normal/rock_normals.png", "start": 12247735, "end": 14084557, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-color.glsl", "start": 14084557, "end": 14086314, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-textured-normal.glsl", "start": 14086314, "end": 14088408, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-textured.glsl", "start": 14088408, "end": 14090253, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-unlit-color.glsl", "start": 14090253, "end": 14090407, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment.glsl", "start": 14090407, "end": 14090652, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-color.glsl", "start": 14090652, "end": 14091135, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-textured-normal.glsl", "start": 14091135, "end": 14092067, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-textured.glsl", "start": 14092067, "end": 14092669, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-unlit-color.glsl", "start": 14092669, "end": 14092949, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex.glsl", "start": 14092949, "end": 14093469, "audio": 0}, {"filename": "/Secret_Meshes/cube_trio.fbx", "start": 14093469, "end": 14109113, "audio": 0}, {"filename": "/Secret_Meshes/drill.obj", "start": 14109113, "end": 30927624, "audio": 0}, {"filename": "/Secret_Meshes/duo-tex.fbx", "start": 30927624, "end": 30962980, "audio": 0}, {"filename": "/Secret_Meshes/duo.blend", "start": 30962980, "end": 31922660, "audio": 0}, {"filename": "/Secret_Meshes/duo.dae", "start": 31922660, "end": 31942880, "audio": 0}, {"filename": "/Secret_Meshes/duo.fbx", "start": 31942880, "end": 32000412, "audio": 0}, {"filename": "/Secret_Meshes/duo.mtl", "start": 32000412, "end": 32000723, "audio": 0}, {"filename": "/Secret_Meshes/duo.obj", "start": 32000723, "end": 32008671, "audio": 0}, {"filename": "/Secret_Meshes/duo_hd.fbx", "start": 32008671, "end": 32945899, "audio": 0}, {"filename": "/Secret_Meshes/duo_old.fbx", "start": 32945899, "end": 33000663, "audio": 0}, {"filename": "/Secret_Meshes/good_sphere.fbx", "start": 33000663, "end": 33747123, "audio": 0}, {"filename": "/Secret_Meshes/Helmet_01.mtl", "start": 33747123, "end": 33747357, "audio": 0}, {"filename": "/Secret_Meshes/Helmet_01.obj", "start": 33747357, "end": 33962114, "audio": 0}, {"filename": "/Secret_Meshes/index_controller.stl", "start": 33962114, "end": 34996598, "audio": 0}, {"filename": "/Secret_Meshes/plane.blend", "start": 34996598, "end": 35794226, "audio": 0}, {"filename": "/Secret_Meshes/plane.blend1", "start": 35794226, "end": 36591854, "audio": 0}, {"filename": "/Secret_Meshes/plane.fbx", "start": 36591854, "end": 36603386, "audio": 0}, {"filename": "/Secret_Meshes/quadro.fbx", "start": 36603386, "end": 36679990, "audio": 0}], "remote_package_size": 36679990, "package_uuid": "57749482-9aef-4c36-b698-8318b66ebe14"});
+   loadPackage({"files": [{"filename": "/Assets/Models/cone.obj", "start": 0, "end": 6073, "audio": 0}, {"filename": "/Assets/Models/cube.obj", "start": 6073, "end": 9871, "audio": 0}, {"filename": "/Assets/Models/cylinder.obj", "start": 9871, "end": 34849, "audio": 0}, {"filename": "/Assets/Models/duo.fbx", "start": 34849, "end": 92381, "audio": 0}, {"filename": "/Assets/Models/helix.obj", "start": 92381, "end": 606827, "audio": 0}, {"filename": "/Assets/Models/index_controller.blend", "start": 606827, "end": 2704395, "audio": 0}, {"filename": "/Assets/Models/index_controller.blend1", "start": 2704395, "end": 4822843, "audio": 0}, {"filename": "/Assets/Models/index_controller.stl", "start": 4822843, "end": 5857277, "audio": 0}, {"filename": "/Assets/Models/plane.fbx", "start": 5857277, "end": 5868729, "audio": 0}, {"filename": "/Assets/Models/sphere.obj", "start": 5868729, "end": 5993204, "audio": 0}, {"filename": "/Assets/Models/torus.obj", "start": 5993204, "end": 6098129, "audio": 0}, {"filename": "/Assets/Images/asset.png", "start": 6098129, "end": 6101735, "audio": 0}, {"filename": "/Assets/Images/cushion.png", "start": 6101735, "end": 6389837, "audio": 0}, {"filename": "/Assets/Images/directory.png", "start": 6389837, "end": 6393368, "audio": 0}, {"filename": "/Assets/Images/light_bulb.jpg", "start": 6393368, "end": 6437584, "audio": 0}, {"filename": "/Assets/Images/rock.png", "start": 6437584, "end": 8279301, "audio": 0}, {"filename": "/Assets/Images/tile1.tif", "start": 8279301, "end": 9852481, "audio": 0}, {"filename": "/Assets/Images/tile2.tif", "start": 9852481, "end": 11851113, "audio": 0}, {"filename": "/Assets/Images/Normal/cushion_normals.png", "start": 11851113, "end": 12247735, "audio": 0}, {"filename": "/Assets/Images/Normal/rock_normals.png", "start": 12247735, "end": 14084557, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-color.glsl", "start": 14084557, "end": 14086314, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-textured-normal.glsl", "start": 14086314, "end": 14088408, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-lit-textured.glsl", "start": 14088408, "end": 14090253, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment-unlit-color.glsl", "start": 14090253, "end": 14090407, "audio": 0}, {"filename": "/Shaders/GLSL-ES/fragment.glsl", "start": 14090407, "end": 14090652, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-color.glsl", "start": 14090652, "end": 14091135, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-textured-normal.glsl", "start": 14091135, "end": 14092067, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-lit-textured.glsl", "start": 14092067, "end": 14092669, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex-unlit-color.glsl", "start": 14092669, "end": 14092949, "audio": 0}, {"filename": "/Shaders/GLSL-ES/vertex.glsl", "start": 14092949, "end": 14093469, "audio": 0}, {"filename": "/Secret_Meshes/cube_trio.fbx", "start": 14093469, "end": 14109113, "audio": 0}, {"filename": "/Secret_Meshes/drill.obj", "start": 14109113, "end": 30927624, "audio": 0}, {"filename": "/Secret_Meshes/duo-tex.fbx", "start": 30927624, "end": 30962980, "audio": 0}, {"filename": "/Secret_Meshes/duo.blend", "start": 30962980, "end": 31922660, "audio": 0}, {"filename": "/Secret_Meshes/duo.dae", "start": 31922660, "end": 31942880, "audio": 0}, {"filename": "/Secret_Meshes/duo.fbx", "start": 31942880, "end": 32000412, "audio": 0}, {"filename": "/Secret_Meshes/duo.mtl", "start": 32000412, "end": 32000723, "audio": 0}, {"filename": "/Secret_Meshes/duo.obj", "start": 32000723, "end": 32008671, "audio": 0}, {"filename": "/Secret_Meshes/duo_hd.fbx", "start": 32008671, "end": 32945899, "audio": 0}, {"filename": "/Secret_Meshes/duo_old.fbx", "start": 32945899, "end": 33000663, "audio": 0}, {"filename": "/Secret_Meshes/good_sphere.fbx", "start": 33000663, "end": 33747123, "audio": 0}, {"filename": "/Secret_Meshes/Helmet_01.mtl", "start": 33747123, "end": 33747357, "audio": 0}, {"filename": "/Secret_Meshes/Helmet_01.obj", "start": 33747357, "end": 33962114, "audio": 0}, {"filename": "/Secret_Meshes/index_controller.stl", "start": 33962114, "end": 34996598, "audio": 0}, {"filename": "/Secret_Meshes/plane.blend", "start": 34996598, "end": 35794226, "audio": 0}, {"filename": "/Secret_Meshes/plane.blend1", "start": 35794226, "end": 36591854, "audio": 0}, {"filename": "/Secret_Meshes/plane.fbx", "start": 36591854, "end": 36603386, "audio": 0}, {"filename": "/Secret_Meshes/quadro.fbx", "start": 36603386, "end": 36679990, "audio": 0}], "remote_package_size": 36679990, "package_uuid": "a6791297-918c-4a27-b32e-ee4658629d22"});
   
   })();
   
@@ -1872,24 +1872,24 @@ var tempI64;
 // === Body ===
 
 var ASM_CONSTS = {
-  804824: function($0, $1, $2) {var w = $0; var h = $1; var pixels = $2; if (!Module['SDL2']) Module['SDL2'] = {}; var SDL2 = Module['SDL2']; if (SDL2.ctxCanvas !== Module['canvas']) { SDL2.ctx = Module['createContext'](Module['canvas'], false, true); SDL2.ctxCanvas = Module['canvas']; } if (SDL2.w !== w || SDL2.h !== h || SDL2.imageCtx !== SDL2.ctx) { SDL2.image = SDL2.ctx.createImageData(w, h); SDL2.w = w; SDL2.h = h; SDL2.imageCtx = SDL2.ctx; } var data = SDL2.image.data; var src = pixels >> 2; var dst = 0; var num; if (typeof CanvasPixelArray !== 'undefined' && data instanceof CanvasPixelArray) { num = data.length; while (dst < num) { var val = HEAP32[src]; data[dst ] = val & 0xff; data[dst+1] = (val >> 8) & 0xff; data[dst+2] = (val >> 16) & 0xff; data[dst+3] = 0xff; src++; dst += 4; } } else { if (SDL2.data32Data !== data) { SDL2.data32 = new Int32Array(data.buffer); SDL2.data8 = new Uint8Array(data.buffer); } var data32 = SDL2.data32; num = data32.length; data32.set(HEAP32.subarray(src, src + num)); var data8 = SDL2.data8; var i = 3; var j = i + 4*num; if (num % 8 == 0) { while (i < j) { data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; } } else { while (i < j) { data8[i] = 0xff; i = i + 4 | 0; } } } SDL2.ctx.putImageData(SDL2.image, 0, 0); return 0;},  
- 806279: function($0, $1, $2, $3, $4) {var w = $0; var h = $1; var hot_x = $2; var hot_y = $3; var pixels = $4; var canvas = document.createElement("canvas"); canvas.width = w; canvas.height = h; var ctx = canvas.getContext("2d"); var image = ctx.createImageData(w, h); var data = image.data; var src = pixels >> 2; var dst = 0; var num; if (typeof CanvasPixelArray !== 'undefined' && data instanceof CanvasPixelArray) { num = data.length; while (dst < num) { var val = HEAP32[src]; data[dst ] = val & 0xff; data[dst+1] = (val >> 8) & 0xff; data[dst+2] = (val >> 16) & 0xff; data[dst+3] = (val >> 24) & 0xff; src++; dst += 4; } } else { var data32 = new Int32Array(data.buffer); num = data32.length; data32.set(HEAP32.subarray(src, src + num)); } ctx.putImageData(image, 0, 0); var url = hot_x === 0 && hot_y === 0 ? "url(" + canvas.toDataURL() + "), auto" : "url(" + canvas.toDataURL() + ") " + hot_x + " " + hot_y + ", auto"; var urlBuf = _malloc(url.length + 1); stringToUTF8(url, urlBuf, url.length + 1); return urlBuf;},  
- 807268: function($0) {if (Module['canvas']) { Module['canvas'].style['cursor'] = UTF8ToString($0); } return 0;},  
- 807361: function() {if (Module['canvas']) { Module['canvas'].style['cursor'] = 'none'; }},  
- 807430: function() {return screen.width;},  
- 807455: function() {return screen.height;},  
- 807481: function() {return window.innerWidth;},  
- 807511: function() {return window.innerHeight;},  
- 807542: function($0) {if (typeof setWindowTitle !== 'undefined') { setWindowTitle(UTF8ToString($0)); } return 0;},  
- 807637: function() {if (typeof(AudioContext) !== 'undefined') { return 1; } else if (typeof(webkitAudioContext) !== 'undefined') { return 1; } return 0;},  
- 807774: function() {if ((typeof(navigator.mediaDevices) !== 'undefined') && (typeof(navigator.mediaDevices.getUserMedia) !== 'undefined')) { return 1; } else if (typeof(navigator.webkitGetUserMedia) !== 'undefined') { return 1; } return 0;},  
- 807998: function($0) {if(typeof(Module['SDL2']) === 'undefined') { Module['SDL2'] = {}; } var SDL2 = Module['SDL2']; if (!$0) { SDL2.audio = {}; } else { SDL2.capture = {}; } if (!SDL2.audioContext) { if (typeof(AudioContext) !== 'undefined') { SDL2.audioContext = new AudioContext(); } else if (typeof(webkitAudioContext) !== 'undefined') { SDL2.audioContext = new webkitAudioContext(); } if (SDL2.audioContext) { autoResumeAudioContext(SDL2.audioContext); } } return SDL2.audioContext === undefined ? -1 : 0;},  
- 808491: function() {var SDL2 = Module['SDL2']; return SDL2.audioContext.sampleRate;},  
- 808559: function($0, $1, $2, $3) {var SDL2 = Module['SDL2']; var have_microphone = function(stream) { if (SDL2.capture.silenceTimer !== undefined) { clearTimeout(SDL2.capture.silenceTimer); SDL2.capture.silenceTimer = undefined; } SDL2.capture.mediaStreamNode = SDL2.audioContext.createMediaStreamSource(stream); SDL2.capture.scriptProcessorNode = SDL2.audioContext.createScriptProcessor($1, $0, 1); SDL2.capture.scriptProcessorNode.onaudioprocess = function(audioProcessingEvent) { if ((SDL2 === undefined) || (SDL2.capture === undefined)) { return; } audioProcessingEvent.outputBuffer.getChannelData(0).fill(0.0); SDL2.capture.currentCaptureBuffer = audioProcessingEvent.inputBuffer; dynCall('vi', $2, [$3]); }; SDL2.capture.mediaStreamNode.connect(SDL2.capture.scriptProcessorNode); SDL2.capture.scriptProcessorNode.connect(SDL2.audioContext.destination); SDL2.capture.stream = stream; }; var no_microphone = function(error) { }; SDL2.capture.silenceBuffer = SDL2.audioContext.createBuffer($0, $1, SDL2.audioContext.sampleRate); SDL2.capture.silenceBuffer.getChannelData(0).fill(0.0); var silence_callback = function() { SDL2.capture.currentCaptureBuffer = SDL2.capture.silenceBuffer; dynCall('vi', $2, [$3]); }; SDL2.capture.silenceTimer = setTimeout(silence_callback, ($1 / SDL2.audioContext.sampleRate) * 1000); if ((navigator.mediaDevices !== undefined) && (navigator.mediaDevices.getUserMedia !== undefined)) { navigator.mediaDevices.getUserMedia({ audio: true, video: false }).then(have_microphone).catch(no_microphone); } else if (navigator.webkitGetUserMedia !== undefined) { navigator.webkitGetUserMedia({ audio: true, video: false }, have_microphone, no_microphone); }},  
- 810211: function($0, $1, $2, $3) {var SDL2 = Module['SDL2']; SDL2.audio.scriptProcessorNode = SDL2.audioContext['createScriptProcessor']($1, 0, $0); SDL2.audio.scriptProcessorNode['onaudioprocess'] = function (e) { if ((SDL2 === undefined) || (SDL2.audio === undefined)) { return; } SDL2.audio.currentOutputBuffer = e['outputBuffer']; dynCall('vi', $2, [$3]); }; SDL2.audio.scriptProcessorNode['connect'](SDL2.audioContext['destination']);},  
- 810621: function($0, $1) {var SDL2 = Module['SDL2']; var numChannels = SDL2.capture.currentCaptureBuffer.numberOfChannels; for (var c = 0; c < numChannels; ++c) { var channelData = SDL2.capture.currentCaptureBuffer.getChannelData(c); if (channelData.length != $1) { throw 'Web Audio capture buffer length mismatch! Destination size: ' + channelData.length + ' samples vs expected ' + $1 + ' samples!'; } if (numChannels == 1) { for (var j = 0; j < $1; ++j) { setValue($0 + (j * 4), channelData[j], 'float'); } } else { for (var j = 0; j < $1; ++j) { setValue($0 + (((j * numChannels) + c) * 4), channelData[j], 'float'); } } }},  
- 811226: function($0, $1) {var SDL2 = Module['SDL2']; var numChannels = SDL2.audio.currentOutputBuffer['numberOfChannels']; for (var c = 0; c < numChannels; ++c) { var channelData = SDL2.audio.currentOutputBuffer['getChannelData'](c); if (channelData.length != $1) { throw 'Web Audio output buffer length mismatch! Destination size: ' + channelData.length + ' samples vs expected ' + $1 + ' samples!'; } for (var j = 0; j < $1; ++j) { channelData[j] = HEAPF32[$0 + ((j*numChannels + c) << 2) >> 2]; } }},  
- 811706: function($0) {var SDL2 = Module['SDL2']; if ($0) { if (SDL2.capture.silenceTimer !== undefined) { clearTimeout(SDL2.capture.silenceTimer); } if (SDL2.capture.stream !== undefined) { var tracks = SDL2.capture.stream.getAudioTracks(); for (var i = 0; i < tracks.length; i++) { SDL2.capture.stream.removeTrack(tracks[i]); } SDL2.capture.stream = undefined; } if (SDL2.capture.scriptProcessorNode !== undefined) { SDL2.capture.scriptProcessorNode.onaudioprocess = function(audioProcessingEvent) {}; SDL2.capture.scriptProcessorNode.disconnect(); SDL2.capture.scriptProcessorNode = undefined; } if (SDL2.capture.mediaStreamNode !== undefined) { SDL2.capture.mediaStreamNode.disconnect(); SDL2.capture.mediaStreamNode = undefined; } if (SDL2.capture.silenceBuffer !== undefined) { SDL2.capture.silenceBuffer = undefined } SDL2.capture = undefined; } else { if (SDL2.audio.scriptProcessorNode != undefined) { SDL2.audio.scriptProcessorNode.disconnect(); SDL2.audio.scriptProcessorNode = undefined; } SDL2.audio = undefined; } if ((SDL2.audioContext !== undefined) && (SDL2.audio === undefined) && (SDL2.capture === undefined)) { SDL2.audioContext.close(); SDL2.audioContext = undefined; }}
+  804680: function($0, $1, $2) {var w = $0; var h = $1; var pixels = $2; if (!Module['SDL2']) Module['SDL2'] = {}; var SDL2 = Module['SDL2']; if (SDL2.ctxCanvas !== Module['canvas']) { SDL2.ctx = Module['createContext'](Module['canvas'], false, true); SDL2.ctxCanvas = Module['canvas']; } if (SDL2.w !== w || SDL2.h !== h || SDL2.imageCtx !== SDL2.ctx) { SDL2.image = SDL2.ctx.createImageData(w, h); SDL2.w = w; SDL2.h = h; SDL2.imageCtx = SDL2.ctx; } var data = SDL2.image.data; var src = pixels >> 2; var dst = 0; var num; if (typeof CanvasPixelArray !== 'undefined' && data instanceof CanvasPixelArray) { num = data.length; while (dst < num) { var val = HEAP32[src]; data[dst ] = val & 0xff; data[dst+1] = (val >> 8) & 0xff; data[dst+2] = (val >> 16) & 0xff; data[dst+3] = 0xff; src++; dst += 4; } } else { if (SDL2.data32Data !== data) { SDL2.data32 = new Int32Array(data.buffer); SDL2.data8 = new Uint8Array(data.buffer); } var data32 = SDL2.data32; num = data32.length; data32.set(HEAP32.subarray(src, src + num)); var data8 = SDL2.data8; var i = 3; var j = i + 4*num; if (num % 8 == 0) { while (i < j) { data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; data8[i] = 0xff; i = i + 4 | 0; } } else { while (i < j) { data8[i] = 0xff; i = i + 4 | 0; } } } SDL2.ctx.putImageData(SDL2.image, 0, 0); return 0;},  
+ 806135: function($0, $1, $2, $3, $4) {var w = $0; var h = $1; var hot_x = $2; var hot_y = $3; var pixels = $4; var canvas = document.createElement("canvas"); canvas.width = w; canvas.height = h; var ctx = canvas.getContext("2d"); var image = ctx.createImageData(w, h); var data = image.data; var src = pixels >> 2; var dst = 0; var num; if (typeof CanvasPixelArray !== 'undefined' && data instanceof CanvasPixelArray) { num = data.length; while (dst < num) { var val = HEAP32[src]; data[dst ] = val & 0xff; data[dst+1] = (val >> 8) & 0xff; data[dst+2] = (val >> 16) & 0xff; data[dst+3] = (val >> 24) & 0xff; src++; dst += 4; } } else { var data32 = new Int32Array(data.buffer); num = data32.length; data32.set(HEAP32.subarray(src, src + num)); } ctx.putImageData(image, 0, 0); var url = hot_x === 0 && hot_y === 0 ? "url(" + canvas.toDataURL() + "), auto" : "url(" + canvas.toDataURL() + ") " + hot_x + " " + hot_y + ", auto"; var urlBuf = _malloc(url.length + 1); stringToUTF8(url, urlBuf, url.length + 1); return urlBuf;},  
+ 807124: function($0) {if (Module['canvas']) { Module['canvas'].style['cursor'] = UTF8ToString($0); } return 0;},  
+ 807217: function() {if (Module['canvas']) { Module['canvas'].style['cursor'] = 'none'; }},  
+ 807286: function() {return screen.width;},  
+ 807311: function() {return screen.height;},  
+ 807337: function() {return window.innerWidth;},  
+ 807367: function() {return window.innerHeight;},  
+ 807398: function($0) {if (typeof setWindowTitle !== 'undefined') { setWindowTitle(UTF8ToString($0)); } return 0;},  
+ 807493: function() {if (typeof(AudioContext) !== 'undefined') { return 1; } else if (typeof(webkitAudioContext) !== 'undefined') { return 1; } return 0;},  
+ 807630: function() {if ((typeof(navigator.mediaDevices) !== 'undefined') && (typeof(navigator.mediaDevices.getUserMedia) !== 'undefined')) { return 1; } else if (typeof(navigator.webkitGetUserMedia) !== 'undefined') { return 1; } return 0;},  
+ 807854: function($0) {if(typeof(Module['SDL2']) === 'undefined') { Module['SDL2'] = {}; } var SDL2 = Module['SDL2']; if (!$0) { SDL2.audio = {}; } else { SDL2.capture = {}; } if (!SDL2.audioContext) { if (typeof(AudioContext) !== 'undefined') { SDL2.audioContext = new AudioContext(); } else if (typeof(webkitAudioContext) !== 'undefined') { SDL2.audioContext = new webkitAudioContext(); } if (SDL2.audioContext) { autoResumeAudioContext(SDL2.audioContext); } } return SDL2.audioContext === undefined ? -1 : 0;},  
+ 808347: function() {var SDL2 = Module['SDL2']; return SDL2.audioContext.sampleRate;},  
+ 808415: function($0, $1, $2, $3) {var SDL2 = Module['SDL2']; var have_microphone = function(stream) { if (SDL2.capture.silenceTimer !== undefined) { clearTimeout(SDL2.capture.silenceTimer); SDL2.capture.silenceTimer = undefined; } SDL2.capture.mediaStreamNode = SDL2.audioContext.createMediaStreamSource(stream); SDL2.capture.scriptProcessorNode = SDL2.audioContext.createScriptProcessor($1, $0, 1); SDL2.capture.scriptProcessorNode.onaudioprocess = function(audioProcessingEvent) { if ((SDL2 === undefined) || (SDL2.capture === undefined)) { return; } audioProcessingEvent.outputBuffer.getChannelData(0).fill(0.0); SDL2.capture.currentCaptureBuffer = audioProcessingEvent.inputBuffer; dynCall('vi', $2, [$3]); }; SDL2.capture.mediaStreamNode.connect(SDL2.capture.scriptProcessorNode); SDL2.capture.scriptProcessorNode.connect(SDL2.audioContext.destination); SDL2.capture.stream = stream; }; var no_microphone = function(error) { }; SDL2.capture.silenceBuffer = SDL2.audioContext.createBuffer($0, $1, SDL2.audioContext.sampleRate); SDL2.capture.silenceBuffer.getChannelData(0).fill(0.0); var silence_callback = function() { SDL2.capture.currentCaptureBuffer = SDL2.capture.silenceBuffer; dynCall('vi', $2, [$3]); }; SDL2.capture.silenceTimer = setTimeout(silence_callback, ($1 / SDL2.audioContext.sampleRate) * 1000); if ((navigator.mediaDevices !== undefined) && (navigator.mediaDevices.getUserMedia !== undefined)) { navigator.mediaDevices.getUserMedia({ audio: true, video: false }).then(have_microphone).catch(no_microphone); } else if (navigator.webkitGetUserMedia !== undefined) { navigator.webkitGetUserMedia({ audio: true, video: false }, have_microphone, no_microphone); }},  
+ 810067: function($0, $1, $2, $3) {var SDL2 = Module['SDL2']; SDL2.audio.scriptProcessorNode = SDL2.audioContext['createScriptProcessor']($1, 0, $0); SDL2.audio.scriptProcessorNode['onaudioprocess'] = function (e) { if ((SDL2 === undefined) || (SDL2.audio === undefined)) { return; } SDL2.audio.currentOutputBuffer = e['outputBuffer']; dynCall('vi', $2, [$3]); }; SDL2.audio.scriptProcessorNode['connect'](SDL2.audioContext['destination']);},  
+ 810477: function($0, $1) {var SDL2 = Module['SDL2']; var numChannels = SDL2.capture.currentCaptureBuffer.numberOfChannels; for (var c = 0; c < numChannels; ++c) { var channelData = SDL2.capture.currentCaptureBuffer.getChannelData(c); if (channelData.length != $1) { throw 'Web Audio capture buffer length mismatch! Destination size: ' + channelData.length + ' samples vs expected ' + $1 + ' samples!'; } if (numChannels == 1) { for (var j = 0; j < $1; ++j) { setValue($0 + (j * 4), channelData[j], 'float'); } } else { for (var j = 0; j < $1; ++j) { setValue($0 + (((j * numChannels) + c) * 4), channelData[j], 'float'); } } }},  
+ 811082: function($0, $1) {var SDL2 = Module['SDL2']; var numChannels = SDL2.audio.currentOutputBuffer['numberOfChannels']; for (var c = 0; c < numChannels; ++c) { var channelData = SDL2.audio.currentOutputBuffer['getChannelData'](c); if (channelData.length != $1) { throw 'Web Audio output buffer length mismatch! Destination size: ' + channelData.length + ' samples vs expected ' + $1 + ' samples!'; } for (var j = 0; j < $1; ++j) { channelData[j] = HEAPF32[$0 + ((j*numChannels + c) << 2) >> 2]; } }},  
+ 811562: function($0) {var SDL2 = Module['SDL2']; if ($0) { if (SDL2.capture.silenceTimer !== undefined) { clearTimeout(SDL2.capture.silenceTimer); } if (SDL2.capture.stream !== undefined) { var tracks = SDL2.capture.stream.getAudioTracks(); for (var i = 0; i < tracks.length; i++) { SDL2.capture.stream.removeTrack(tracks[i]); } SDL2.capture.stream = undefined; } if (SDL2.capture.scriptProcessorNode !== undefined) { SDL2.capture.scriptProcessorNode.onaudioprocess = function(audioProcessingEvent) {}; SDL2.capture.scriptProcessorNode.disconnect(); SDL2.capture.scriptProcessorNode = undefined; } if (SDL2.capture.mediaStreamNode !== undefined) { SDL2.capture.mediaStreamNode.disconnect(); SDL2.capture.mediaStreamNode = undefined; } if (SDL2.capture.silenceBuffer !== undefined) { SDL2.capture.silenceBuffer = undefined } SDL2.capture = undefined; } else { if (SDL2.audio.scriptProcessorNode != undefined) { SDL2.audio.scriptProcessorNode.disconnect(); SDL2.audio.scriptProcessorNode = undefined; } SDL2.audio = undefined; } if ((SDL2.audioContext !== undefined) && (SDL2.audio === undefined) && (SDL2.capture === undefined)) { SDL2.audioContext.close(); SDL2.audioContext = undefined; }}
 };
 function browserCopy(toCopy){ let result = navigator.clipboard.writeText(UTF8ToString(toCopy)).then(() => console.log(UTF8ToString(toCopy))); }
 function browserPaste(){ return Asyncify.handleAsync(async () => { let cbText = await navigator.clipboard.readText(); let lengthBytes = lengthBytesUTF8(cbText) + 1; let stringOnWasmHeap = _malloc(lengthBytes); stringToUTF8(cbText, stringOnWasmHeap, lengthBytes); return stringOnWasmHeap; }) }
@@ -10396,16 +10396,6 @@ function browserPaste(){ return Asyncify.handleAsync(async () => { let cbText = 
         );
     }
 
-  function _glGenFramebuffers(n, ids) {
-      __glGenObject(n, ids, 'createFramebuffer', GL.framebuffers
-        );
-    }
-
-  function _glGenRenderbuffers(n, renderbuffers) {
-      __glGenObject(n, renderbuffers, 'createRenderbuffer', GL.renderbuffers
-        );
-    }
-
   function _glGenTextures(n, textures) {
       __glGenObject(n, textures, 'createTexture', GL.textures
         );
@@ -10420,6 +10410,12 @@ function browserPaste(){ return Asyncify.handleAsync(async () => { let cbText = 
 
   function _glGetAttribLocation(program, name) {
       return GLctx.getAttribLocation(GL.programs[program], UTF8ToString(name));
+    }
+
+  function _glGetError() {
+      var error = GLctx.getError() || GL.lastError;
+      GL.lastError = 0/*GL_NO_ERROR*/;
+      return error;
     }
 
   function _glGetIntegerv(name_, p) {
@@ -10684,6 +10680,113 @@ function browserPaste(){ return Asyncify.handleAsync(async () => { let cbText = 
     }
 
   function _glViewport(x0, x1, x2, x3) { GLctx['viewport'](x0, x1, x2, x3) }
+
+  function _glGetString(name_) {
+      var ret = GL.stringCache[name_];
+      if (!ret) {
+        switch (name_) {
+          case 0x1F03 /* GL_EXTENSIONS */:
+            var exts = GLctx.getSupportedExtensions() || []; // .getSupportedExtensions() can return null if context is lost, so coerce to empty array.
+            exts = exts.concat(exts.map(function(e) { return "GL_" + e; }));
+            ret = stringToNewUTF8(exts.join(' '));
+            break;
+          case 0x1F00 /* GL_VENDOR */:
+          case 0x1F01 /* GL_RENDERER */:
+          case 0x9245 /* UNMASKED_VENDOR_WEBGL */:
+          case 0x9246 /* UNMASKED_RENDERER_WEBGL */:
+            var s = GLctx.getParameter(name_);
+            if (!s) {
+              GL.recordError(0x500/*GL_INVALID_ENUM*/);
+            }
+            ret = s && stringToNewUTF8(s);
+            break;
+  
+          case 0x1F02 /* GL_VERSION */:
+            var glVersion = GLctx.getParameter(0x1F02 /*GL_VERSION*/);
+            // return GLES version string corresponding to the version of the WebGL context
+            if (true) glVersion = 'OpenGL ES 3.0 (' + glVersion + ')';
+            else
+            {
+              glVersion = 'OpenGL ES 2.0 (' + glVersion + ')';
+            }
+            ret = stringToNewUTF8(glVersion);
+            break;
+          case 0x8B8C /* GL_SHADING_LANGUAGE_VERSION */:
+            var glslVersion = GLctx.getParameter(0x8B8C /*GL_SHADING_LANGUAGE_VERSION*/);
+            // extract the version number 'N.M' from the string 'WebGL GLSL ES N.M ...'
+            var ver_re = /^WebGL GLSL ES ([0-9]\.[0-9][0-9]?)(?:$| .*)/;
+            var ver_num = glslVersion.match(ver_re);
+            if (ver_num !== null) {
+              if (ver_num[1].length == 3) ver_num[1] = ver_num[1] + '0'; // ensure minor version has 2 digits
+              glslVersion = 'OpenGL ES GLSL ES ' + ver_num[1] + ' (' + glslVersion + ')';
+            }
+            ret = stringToNewUTF8(glslVersion);
+            break;
+          default:
+            GL.recordError(0x500/*GL_INVALID_ENUM*/);
+            // fall through
+        }
+        GL.stringCache[name_] = ret;
+      }
+      return ret;
+    }
+  var GLEW={isLinaroFork:1,extensions:null,error:{0:null,1:null,2:null,3:null,4:null,5:null,6:null,7:null,8:null},version:{1:null,2:null,3:null,4:null},errorStringConstantFromCode:function(error) {
+        if (GLEW.isLinaroFork) {
+          switch (error) {
+            case 4:return "OpenGL ES lib expected, found OpenGL lib"; // GLEW_ERROR_NOT_GLES_VERSION
+            case 5:return "OpenGL lib expected, found OpenGL ES lib"; // GLEW_ERROR_GLES_VERSION
+            case 6:return "Missing EGL version"; // GLEW_ERROR_NO_EGL_VERSION
+            case 7:return "EGL 1.1 and up are supported"; // GLEW_ERROR_EGL_VERSION_10_ONLY
+            default:break;
+          }
+        }
+  
+        switch (error) {
+          case 0:return "No error"; // GLEW_OK || GLEW_NO_ERROR
+          case 1:return "Missing GL version"; // GLEW_ERROR_NO_GL_VERSION
+          case 2:return "GL 1.1 and up are supported"; // GLEW_ERROR_GL_VERSION_10_ONLY
+          case 3:return "GLX 1.2 and up are supported"; // GLEW_ERROR_GLX_VERSION_11_ONLY
+          default:return null;
+        }
+      },errorString:function(error) {
+        if (!GLEW.error[error]) {
+          var string = GLEW.errorStringConstantFromCode(error);
+          if (!string) {
+            string = "Unknown error";
+            error = 8; // prevent array from growing more than this
+          }
+          GLEW.error[error] = allocate(intArrayFromString(string), ALLOC_NORMAL);
+        }
+        return GLEW.error[error];
+      },versionStringConstantFromCode:function(name) {
+        switch (name) {
+          case 1:return "1.10.0"; // GLEW_VERSION
+          case 2:return "1"; // GLEW_VERSION_MAJOR
+          case 3:return "10"; // GLEW_VERSION_MINOR
+          case 4:return "0"; // GLEW_VERSION_MICRO
+          default:return null;
+        }
+      },versionString:function(name) {
+        if (!GLEW.version[name]) {
+          var string = GLEW.versionStringConstantFromCode(name);
+          if (!string)
+            return 0;
+          GLEW.version[name] = allocate(intArrayFromString(string), ALLOC_NORMAL);
+        }
+        return GLEW.version[name];
+      },extensionIsSupported:function(name) {
+        if (!GLEW.extensions) {
+          GLEW.extensions = UTF8ToString(_glGetString(0x1F03)).split(' ');
+        }
+  
+        if (GLEW.extensions.includes(name))
+          return 1;
+  
+        // extensions from GLEmulations do not come unprefixed
+        // so, try with prefix
+        return (GLEW.extensions.includes("GL_" + name));
+      }};
+  function _glewInit() { return 0; }
 
   function _setTempRet0(val) {
       setTempRet0(val);
@@ -11736,12 +11839,11 @@ var asmLibraryArg = {
   "glEnableVertexAttribArray": _glEnableVertexAttribArray,
   "glFramebufferRenderbuffer": _glFramebufferRenderbuffer,
   "glGenBuffers": _glGenBuffers,
-  "glGenFramebuffers": _glGenFramebuffers,
-  "glGenRenderbuffers": _glGenRenderbuffers,
   "glGenTextures": _glGenTextures,
   "glGenVertexArrays": _glGenVertexArrays,
   "glGenerateMipmap": _glGenerateMipmap,
   "glGetAttribLocation": _glGetAttribLocation,
+  "glGetError": _glGetError,
   "glGetIntegerv": _glGetIntegerv,
   "glGetProgramInfoLog": _glGetProgramInfoLog,
   "glGetProgramiv": _glGetProgramiv,
@@ -11763,6 +11865,7 @@ var asmLibraryArg = {
   "glUseProgram": _glUseProgram,
   "glVertexAttribPointer": _glVertexAttribPointer,
   "glViewport": _glViewport,
+  "glewInit": _glewInit,
   "setTempRet0": _setTempRet0,
   "sigaction": _sigaction,
   "signal": _signal,
@@ -11774,13 +11877,13 @@ var asm = createWasm();
 var ___wasm_call_ctors = Module["___wasm_call_ctors"] = createExportWrapper("__wasm_call_ctors");
 
 /** @type {function(...*):?} */
+var _memcpy = Module["_memcpy"] = createExportWrapper("memcpy");
+
+/** @type {function(...*):?} */
 var _main = Module["_main"] = createExportWrapper("main");
 
 /** @type {function(...*):?} */
 var _memset = Module["_memset"] = createExportWrapper("memset");
-
-/** @type {function(...*):?} */
-var _memcpy = Module["_memcpy"] = createExportWrapper("memcpy");
 
 /** @type {function(...*):?} */
 var _webxr_clear_framebuffer = Module["_webxr_clear_framebuffer"] = createExportWrapper("webxr_clear_framebuffer");
@@ -11874,6 +11977,9 @@ var dynCall_iii = Module["dynCall_iii"] = createExportWrapper("dynCall_iii");
 var dynCall_v = Module["dynCall_v"] = createExportWrapper("dynCall_v");
 
 /** @type {function(...*):?} */
+var dynCall_viiiii = Module["dynCall_viiiii"] = createExportWrapper("dynCall_viiiii");
+
+/** @type {function(...*):?} */
 var dynCall_ff = Module["dynCall_ff"] = createExportWrapper("dynCall_ff");
 
 /** @type {function(...*):?} */
@@ -11893,9 +11999,6 @@ var dynCall_viiii = Module["dynCall_viiii"] = createExportWrapper("dynCall_viiii
 
 /** @type {function(...*):?} */
 var dynCall_iif = Module["dynCall_iif"] = createExportWrapper("dynCall_iif");
-
-/** @type {function(...*):?} */
-var dynCall_viiiii = Module["dynCall_viiiii"] = createExportWrapper("dynCall_viiiii");
 
 /** @type {function(...*):?} */
 var dynCall_i = Module["dynCall_i"] = createExportWrapper("dynCall_i");

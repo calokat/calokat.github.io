@@ -116,17 +116,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named EmscriptenPortTest
+# Target rules for targets named PortableEngine
 
 # Build rule for target.
-EmscriptenPortTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 EmscriptenPortTest
-.PHONY : EmscriptenPortTest
+PortableEngine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 PortableEngine
+.PHONY : PortableEngine
 
 # fast build rule for target.
-EmscriptenPortTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/build
-.PHONY : EmscriptenPortTest/fast
+PortableEngine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/build
+.PHONY : PortableEngine/fast
 
 #=============================================================================
 # Target rules for targets named imgui
@@ -146,7 +146,7 @@ C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.o: C_/Users/Caleb/Documents/Gi
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.i: C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.i
@@ -154,7 +154,7 @@ C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.i: C_/Users/Caleb/Documents/Gi
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.s: C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.s
@@ -162,7 +162,7 @@ C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.s: C_/Users/Caleb/Documents/Gi
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.o
@@ -170,7 +170,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.o: C_/Users/Ca
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.i
@@ -178,7 +178,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.i: C_/Users/Ca
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.s
@@ -186,7 +186,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.s: C_/Users/Ca
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/AABBSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.o
@@ -194,7 +194,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.o: C_/Use
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.i
@@ -202,7 +202,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.i: C_/Use
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.s
@@ -210,7 +210,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.s: C_/Use
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/BillboardSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.o
@@ -218,7 +218,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.o: C_/Users/Caleb/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.i
@@ -226,7 +226,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.i: C_/Users/Caleb/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.s
@@ -234,7 +234,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.s: C_/Users/Caleb/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Camera.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.o
@@ -242,7 +242,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.o: C_/Users/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.i
@@ -250,7 +250,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.i: C_/Users/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.s
@@ -258,7 +258,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.s: C_/Users/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/CameraSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.o
@@ -266,7 +266,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSys
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.i
@@ -274,7 +274,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSys
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.s
@@ -282,7 +282,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSys
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EngineCameraControllerSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.o
@@ -290,7 +290,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.o: C_/Us
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.i
@@ -298,7 +298,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.i: C_/Us
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.s
@@ -306,7 +306,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.s: C_/Us
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/EntityListWindow.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.o
@@ -314,7 +314,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.o: C_/Users/Ca
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.i
@@ -322,7 +322,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.i: C_/Users/Ca
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.s
@@ -330,7 +330,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.s: C_/Users/Ca
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GameWindow.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.o
@@ -338,7 +338,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.o: C_/Users/C
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.i
@@ -346,7 +346,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.i: C_/Users/C
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.s
@@ -354,7 +354,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.s: C_/Users/C
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/GizmoSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.o
@@ -362,7 +362,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.o: C_/Users
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.i
@@ -370,7 +370,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.i: C_/Users
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.s
@@ -378,7 +378,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.s: C_/Users
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IAssetManager.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.o
@@ -386,7 +386,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.o: C_/Users
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.i
@@ -394,7 +394,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.i: C_/Users
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.s
@@ -402,15 +402,39 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.s: C_/Users
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.cpp.s
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.i
@@ -418,7 +442,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.i: C_/Users/C
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.s
@@ -426,7 +450,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.s: C_/Users/C
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.o
@@ -434,7 +458,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.o: C_/Users/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.i
@@ -442,7 +466,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.i: C_/Users/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.s
@@ -450,7 +474,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.s: C_/Users/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorGUI.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.o
@@ -458,7 +482,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.o: C_/Use
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.i
@@ -466,7 +490,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.i: C_/Use
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.s
@@ -474,7 +498,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.s: C_/Use
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/InspectorWindow.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.o
@@ -482,7 +506,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.o: C_/Users/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.i
@@ -490,7 +514,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.i: C_/Users/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.s
@@ -498,7 +522,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.s: C_/Users/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/LightsSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.o
@@ -506,7 +530,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.o: C_/Us
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.i
@@ -514,7 +538,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.i: C_/Us
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.s
@@ -522,7 +546,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.s: C_/Us
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshLoaderSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.o
@@ -530,7 +554,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.o: C_/Users/Cal
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.i
@@ -538,7 +562,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.i: C_/Users/Cal
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.s
@@ -546,15 +570,39 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.s: C_/Users/Cal
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.cpp.s
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.i
@@ -562,7 +610,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.i: C_/Users/Caleb/D
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.s
@@ -570,7 +618,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.s: C_/Users/Caleb/D
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.o
@@ -578,7 +626,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.o: C_/Users/Cal
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.i
@@ -586,7 +634,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.i: C_/Users/Cal
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.s
@@ -594,7 +642,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.s: C_/Users/Cal
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Transform.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.o
@@ -602,7 +650,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.o: C_/Use
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.i
@@ -610,7 +658,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.i: C_/Use
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.s
@@ -618,7 +666,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.s: C_/Use
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/TransformSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.o
@@ -626,7 +674,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.o: C_/Users/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.i
@@ -634,7 +682,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.i: C_/Users/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.s
@@ -642,7 +690,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.s: C_/Users/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/WindowHeader.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.o
@@ -650,7 +698,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.o: C_/Users/Caleb/Do
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.i
@@ -658,7 +706,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.i: C_/Users/Caleb/Do
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.s
@@ -666,7 +714,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.s: C_/Users/Caleb/Do
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/loop.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.o
@@ -674,7 +722,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.o: C_/Users/Caleb
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.i
@@ -682,7 +730,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.i: C_/Users/Caleb
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.s
@@ -690,7 +738,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.s: C_/Users/Caleb
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/raycast.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.o
@@ -698,7 +746,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.o: C_/Us
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.i
@@ -706,7 +754,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.i: C_/Us
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.s
@@ -714,7 +762,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.s: C_/Us
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderSystem.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.o
@@ -722,7 +770,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.o: C_/Users/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.i
@@ -730,7 +778,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.i: C_/Users/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.s
@@ -738,7 +786,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.s: C_/Users/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/GLRenderer.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.o
@@ -746,7 +794,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.o: C_/Us
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.i
@@ -754,7 +802,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.i: C_/Us
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.s
@@ -762,7 +810,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.s: C_/Us
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/IOpenGLContext.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.o
@@ -770,7 +818,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.o: C_/Users/C
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.i
@@ -778,7 +826,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.i: C_/Users/C
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.s
@@ -786,7 +834,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.s: C_/Users/C
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLAPI.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.o
@@ -794,7 +842,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.o: C_/U
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.i
@@ -802,7 +850,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.i: C_/U
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.s
@@ -810,7 +858,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.s: C_/U
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLESContext.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.o
@@ -818,7 +866,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.o: 
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.i
@@ -826,7 +874,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.i: 
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.s
@@ -834,7 +882,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.s: 
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/OpenGLShaderProgram.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.o
@@ -842,7 +890,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.o: C_/Users/Cale
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.i
@@ -850,7 +898,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.i: C_/Users/Cale
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.s
@@ -858,7 +906,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.s: C_/Users/Cale
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/Shader.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.o
@@ -866,7 +914,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.o: C_/
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.i
@@ -874,7 +922,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.i: C_/
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.s
@@ -882,63 +930,15 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.s: C_/
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.cpp.s
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.o
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.o
-
-# target to build an object file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.o
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.o
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.i
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.i
-
-# target to preprocess a source file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.i
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.i
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.s
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.s
-
-# target to generate assembly for a file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.s
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.cpp.s
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.o
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.o
-
-# target to build an object file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.o
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.o
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.i
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.i
-
-# target to preprocess a source file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.i
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.i
-
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.s
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.s
-
-# target to generate assembly for a file
-C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.s
-.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.o
 
 # target to build an object file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.o
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.i
@@ -946,7 +946,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.i: C_/Users/Caleb/Doc
 
 # target to preprocess a source file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.i
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.i
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
@@ -954,7 +954,7 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.s: C_/Users/Caleb/Doc
 
 # target to generate assembly for a file
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
 
 EmscriptenAssetManager.o: EmscriptenAssetManager.cpp.o
@@ -962,7 +962,7 @@ EmscriptenAssetManager.o: EmscriptenAssetManager.cpp.o
 
 # target to build an object file
 EmscriptenAssetManager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenAssetManager.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenAssetManager.cpp.o
 .PHONY : EmscriptenAssetManager.cpp.o
 
 EmscriptenAssetManager.i: EmscriptenAssetManager.cpp.i
@@ -970,7 +970,7 @@ EmscriptenAssetManager.i: EmscriptenAssetManager.cpp.i
 
 # target to preprocess a source file
 EmscriptenAssetManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenAssetManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenAssetManager.cpp.i
 .PHONY : EmscriptenAssetManager.cpp.i
 
 EmscriptenAssetManager.s: EmscriptenAssetManager.cpp.s
@@ -978,7 +978,7 @@ EmscriptenAssetManager.s: EmscriptenAssetManager.cpp.s
 
 # target to generate assembly for a file
 EmscriptenAssetManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenAssetManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenAssetManager.cpp.s
 .PHONY : EmscriptenAssetManager.cpp.s
 
 EmscriptenInputSystem.o: EmscriptenInputSystem.cpp.o
@@ -986,7 +986,7 @@ EmscriptenInputSystem.o: EmscriptenInputSystem.cpp.o
 
 # target to build an object file
 EmscriptenInputSystem.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenInputSystem.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenInputSystem.cpp.o
 .PHONY : EmscriptenInputSystem.cpp.o
 
 EmscriptenInputSystem.i: EmscriptenInputSystem.cpp.i
@@ -994,7 +994,7 @@ EmscriptenInputSystem.i: EmscriptenInputSystem.cpp.i
 
 # target to preprocess a source file
 EmscriptenInputSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenInputSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenInputSystem.cpp.i
 .PHONY : EmscriptenInputSystem.cpp.i
 
 EmscriptenInputSystem.s: EmscriptenInputSystem.cpp.s
@@ -1002,7 +1002,7 @@ EmscriptenInputSystem.s: EmscriptenInputSystem.cpp.s
 
 # target to generate assembly for a file
 EmscriptenInputSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenInputSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenInputSystem.cpp.s
 .PHONY : EmscriptenInputSystem.cpp.s
 
 EmscriptenPlatform.o: EmscriptenPlatform.cpp.o
@@ -1010,7 +1010,7 @@ EmscriptenPlatform.o: EmscriptenPlatform.cpp.o
 
 # target to build an object file
 EmscriptenPlatform.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenPlatform.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenPlatform.cpp.o
 .PHONY : EmscriptenPlatform.cpp.o
 
 EmscriptenPlatform.i: EmscriptenPlatform.cpp.i
@@ -1018,7 +1018,7 @@ EmscriptenPlatform.i: EmscriptenPlatform.cpp.i
 
 # target to preprocess a source file
 EmscriptenPlatform.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenPlatform.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenPlatform.cpp.i
 .PHONY : EmscriptenPlatform.cpp.i
 
 EmscriptenPlatform.s: EmscriptenPlatform.cpp.s
@@ -1026,7 +1026,7 @@ EmscriptenPlatform.s: EmscriptenPlatform.cpp.s
 
 # target to generate assembly for a file
 EmscriptenPlatform.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/EmscriptenPlatform.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenPlatform.cpp.s
 .PHONY : EmscriptenPlatform.cpp.s
 
 Main.o: Main.cpp.o
@@ -1034,7 +1034,7 @@ Main.o: Main.cpp.o
 
 # target to build an object file
 Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/Main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.o
 .PHONY : Main.cpp.o
 
 Main.i: Main.cpp.i
@@ -1042,7 +1042,7 @@ Main.i: Main.cpp.i
 
 # target to preprocess a source file
 Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/Main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.i
 .PHONY : Main.cpp.i
 
 Main.s: Main.cpp.s
@@ -1050,7 +1050,7 @@ Main.s: Main.cpp.s
 
 # target to generate assembly for a file
 Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/Main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
 WebXRAPI.o: WebXRAPI.cpp.o
@@ -1058,7 +1058,7 @@ WebXRAPI.o: WebXRAPI.cpp.o
 
 # target to build an object file
 WebXRAPI.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/WebXRAPI.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/WebXRAPI.cpp.o
 .PHONY : WebXRAPI.cpp.o
 
 WebXRAPI.i: WebXRAPI.cpp.i
@@ -1066,7 +1066,7 @@ WebXRAPI.i: WebXRAPI.cpp.i
 
 # target to preprocess a source file
 WebXRAPI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/WebXRAPI.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/WebXRAPI.cpp.i
 .PHONY : WebXRAPI.cpp.i
 
 WebXRAPI.s: WebXRAPI.cpp.s
@@ -1074,7 +1074,7 @@ WebXRAPI.s: WebXRAPI.cpp.s
 
 # target to generate assembly for a file
 WebXRAPI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\EmscriptenPortTest.dir\build.make CMakeFiles/EmscriptenPortTest.dir/WebXRAPI.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/WebXRAPI.cpp.s
 .PHONY : WebXRAPI.cpp.s
 
 # Help Target
@@ -1085,7 +1085,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... EmscriptenPortTest
+	@echo ... PortableEngine
 	@echo ... imgui
 	@echo ... C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/ImGuizmo/ImGuizmo.i
@@ -1120,6 +1120,9 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IRenderSystem.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.s
@@ -1138,6 +1141,9 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MeshMaker.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.s
@@ -1180,12 +1186,6 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_OpenGL/WinOpenGLContext.s
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.o
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.i
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/IXRAPI.s
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.o
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.i
-	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/MockXRAPI.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.s

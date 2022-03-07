@@ -38,6 +38,7 @@
       var Module = {
         preRun: [],
         postRun: [],
+        arguments: ['-p', 'Web', '-g', 'OpenGL'],
         print: (function() {
             return function(text) {
                 text = Array.prototype.slice.call(arguments).join(' ');
@@ -54,7 +55,7 @@
             return canvas;
         })(),
         setStatus: function(text) {
-            alert("status: " + text);
+            console.log("status: " + text);
         },
         monitorRunDependencies: function(left) {
             // no run dependencies to log

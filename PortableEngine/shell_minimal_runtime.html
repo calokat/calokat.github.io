@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-    <title>Dear ImGui Emscripten example</title>
+    <title>Portable Engine</title>
     <style>
         body { margin: 0; background-color: black }
         .emscripten {
@@ -32,12 +32,12 @@
     </style>
   </head>
   <body>
-    <button>VR Pls</button>
     <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()"></canvas>
     <script type='text/javascript'>
       var Module = {
         preRun: [],
         postRun: [],
+        arguments: ['-p', 'Web', '-g', 'OpenGL'],
         print: (function() {
             return function(text) {
                 text = Array.prototype.slice.call(arguments).join(' ');
