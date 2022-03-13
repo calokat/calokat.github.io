@@ -429,6 +429,30 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.cpp.s
 
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.cpp.s
+
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o
 
@@ -596,6 +620,78 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.s: C_/Users/Cal
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.cpp.s
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.cpp.s
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.s
 
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o
@@ -957,6 +1053,30 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.cpp.s
 
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.cpp.s
+
 EmscriptenAssetManager.o: EmscriptenAssetManager.cpp.o
 .PHONY : EmscriptenAssetManager.o
 
@@ -1029,30 +1149,6 @@ EmscriptenPlatform.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/EmscriptenPlatform.cpp.s
 .PHONY : EmscriptenPlatform.cpp.s
 
-Main.o: Main.cpp.o
-.PHONY : Main.o
-
-# target to build an object file
-Main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.o
-.PHONY : Main.cpp.o
-
-Main.i: Main.cpp.i
-.PHONY : Main.i
-
-# target to preprocess a source file
-Main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.i
-.PHONY : Main.cpp.i
-
-Main.s: Main.cpp.s
-.PHONY : Main.s
-
-# target to generate assembly for a file
-Main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/Main.cpp.s
-.PHONY : Main.cpp.s
-
 WebXRAPI.o: WebXRAPI.cpp.o
 .PHONY : WebXRAPI.o
 
@@ -1123,6 +1219,9 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/IXRAPI.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSelector.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/ImageSystem.s
@@ -1144,6 +1243,15 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/MockXRAPI.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/PEString.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Timer.s
@@ -1189,6 +1297,9 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_XR/XRAPI.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PortableEngine/Main.s
 	@echo ... EmscriptenAssetManager.o
 	@echo ... EmscriptenAssetManager.i
 	@echo ... EmscriptenAssetManager.s
@@ -1198,9 +1309,6 @@ help:
 	@echo ... EmscriptenPlatform.o
 	@echo ... EmscriptenPlatform.i
 	@echo ... EmscriptenPlatform.s
-	@echo ... Main.o
-	@echo ... Main.i
-	@echo ... Main.s
 	@echo ... WebXRAPI.o
 	@echo ... WebXRAPI.i
 	@echo ... WebXRAPI.s
