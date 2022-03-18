@@ -669,6 +669,30 @@ C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.cpp.s
 
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.o
+
+# target to build an object file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.o
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.o
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.i: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.i
+
+# target to preprocess a source file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.i
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.i
+
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.s: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.s
+
+# target to generate assembly for a file
+C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\PortableEngine.dir\build.make CMakeFiles/PortableEngine.dir/C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.s
+.PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.cpp.s
+
 C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o: C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.cpp.o
 .PHONY : C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o
 
@@ -1249,6 +1273,9 @@ help:
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/Pathfinder.s
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.o
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.i
+	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RelationshipSystem.s
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.o
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.i
 	@echo ... C_/Users/Caleb/Documents/GitHub/PortableEngine/PE_Core/RendererMenu.s
